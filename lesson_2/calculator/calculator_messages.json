@@ -1,0 +1,72 @@
+{
+  "en": {
+    "welcome": "Welcome to the Calculator!",
+    "first_number": "What's the first number?\n",
+    "second_number": "Whats the second number?\n",
+    "operation_prompt_1": "What operation would you like to perform?\n",
+    "operation_prompt_2": "1) Add 2) Subtract 3) Multiply 4) Divide\n",
+    "invalid_number": "This is not a valid number. Please enter a number",
+    "divide_by_zero": "Cannot divide by zero",
+    "continue_prompt": "Please choose 'y' to continue or 'n' to stop: ",
+    "continue_invalid": "That is not a valid option. Please select 'y' or 'n': ",
+    "continue_question": "Would you like to continue with more operations?",
+    "result": "The result is {}",
+    "invalid_operation": "Invalid operation: Please select 1, 2, 3, or 4\n"
+  },
+  "es": {
+    "welcome": "¡Bienvenido a la Calculadora!",
+    "first_number": "¿Cuál es el primer número?\n",
+    "second_number": "¿Cuál es el segundo número?\n",
+    "operation_prompt_1": "¿Qué operación te gustaría realizar?\n",
+    "operation_prompt_2": "1) Sumar 2) Restar 3) Multiplicar 4) Dividir\n",
+    "invalid_number": "Este no es un número válido. Por favor, introduce un número.",
+    "divide_by_zero": "No se puede dividir por cero",
+    "continue_prompt": "Elige 'y' para continuar o 'n' para salir: ",
+    "continue_invalid": "Opción no válida. Por favor selecciona 'y' o 'n': ",
+    "continue_question": "¿Te gustaría continuar con más operaciones?",
+    "result": "El resultado es {}",
+    "invalid_operation": "Operación no válida: selecciona 1, 2, 3 o 4\n"
+  },
+  "fr": {
+    "welcome": "Bienvenue dans la Calculatrice !",
+    "first_number": "Quel est le premier nombre ?\n",
+    "second_number": "Quel est le deuxième nombre ?\n",
+    "operation_prompt_1": "Quelle opération souhaitez-vous effectuer ?\n",
+    "operation_prompt_2": "1) Additionner 2) Soustraire 3) Multiplier 4) Diviser\n",
+    "invalid_number": "Ce n'est pas un nombre valide. Veuillez entrer un nombre.",
+    "divide_by_zero": "Impossible de diviser par zéro",
+    "continue_prompt": "Veuillez choisir 'y' pour continuer ou 'n' pour arrêter : ",
+    "continue_invalid": "Ce n'est pas une option valide. Veuillez sélectionner 'y' ou 'n' : ",
+    "continue_question": "Souhaitez-vous continuer avec d'autres opérations ?",
+    "result": "Le résultat est {}",
+    "invalid_operation": "Opération invalide : veuillez sélectionner 1, 2, 3 ou 4\n"
+  },
+  "de": {
+    "welcome": "Willkommen beim Taschenrechner!",
+    "first_number": "Was ist die erste Zahl?\n",
+    "second_number": "Was ist die zweite Zahl?\n",
+    "operation_prompt_1": "Welche Operation möchten Sie durchführen?\n",
+    "operation_prompt_2": "1) Addieren 2) Subtrahieren 3) Multiplizieren 4) Dividieren\n",
+    "invalid_number": "Das ist keine gültige Zahl. Bitte geben Sie eine Zahl ein.",
+    "divide_by_zero": "Eine Division durch Null ist nicht möglich",
+    "continue_prompt": "Bitte wählen Sie 'y', um fortzufahren, oder 'n', um zu stoppen: ",
+    "continue_invalid": "Das ist keine gültige Option. Bitte wählen Sie 'y' oder 'n': ",
+    "continue_question": "Möchten Sie mit weiteren Operationen fortfahren?",
+    "result": "Das Ergebnis ist {}",
+    "invalid_operation": "Ungültige Operation: Bitte wählen Sie 1, 2, 3 oder 4\n"
+  },
+  "it": {
+    "welcome": "Benvenuto nella Calcolatrice!",
+    "first_number": "Qual è il primo numero?\n",
+    "second_number": "Qual è il secondo numero?\n",
+    "operation_prompt_1": "Quale operazione desideri eseguire?\n",
+    "operation_prompt_2": "1) Somma 2) Sottrai 3) Moltiplica 4) Dividi\n",
+    "invalid_number": "Questo non è un numero valido. Per favore, inserisci un numero.",
+    "divide_by_zero": "Impossibile dividere per zero",
+    "continue_prompt": "Scegli 'y' per continuare o 'n' per fermarti: ",
+    "continue_invalid": "Questa non è un'opzione valida. Per favore, seleziona 'y' o 'n': ",
+    "continue_question": "Vuoi continuare con altre operazioni?",
+    "result": "Il risultato è {}",
+    "invalid_operation": "Operazione non valida: seleziona 1, 2, 3 o 4\n"
+  }
+}
