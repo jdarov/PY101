@@ -51,19 +51,25 @@ def ask_for_operation(prompt):
             return this_operation
         print("Invalid operation: Please select 1, 2, 3, or 4")
 
+def point_to_prompt(prompt):
+    return f'==> {prompt}'
 
 #main program body
 
-print('Welcome to the Calculator!')
+print(point_to_prompt('Welcome to the Calculator!'))
 
-number1 = check_for_number("What's the first number? ")
-number2 = check_for_number("What's the second number? ")
+PROMPT_1 = "What's the first number?\n"
+PROMPT_2 = "What's the second number?\n"
+
+number1 = check_for_number(point_to_prompt(PROMPT_1))
+number2 = check_for_number(point_to_prompt(PROMPT_2))
 
 print(f'{number1}, {number2}')
 
-OPERATION_PROMPT1 = "What operation would you like to perform?\n"
-OPERATION_PROMPT2 = "1) Add 2) Subtract 3) Multiply 4) Divide\n"
-operation = ask_for_operation(OPERATION_PROMPT1 + OPERATION_PROMPT2)
+OPERATION_PROMPT_1 = "What operation would you like to perform?\n"
+OPERATION_PROMPT_2 = "1) Add 2) Subtract 3) Multiply 4) Divide\n"
+
+operation = ask_for_operation(OPERATION_PROMPT_1 + OPERATION_PROMPT_2)
 result = return_answer(operation, number1, number2)
 
 print(print_result(result))
