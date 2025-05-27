@@ -10,28 +10,30 @@ def check_for_number(prompt):
         except ValueError:
             print('This is not a valid number. Please enter a number')
 
-def print_result(result):
+def print_result(the_result):
     """
-    print_result(result) prints the result of the numbers after performing operation
+    print_result(result) prints the result of the operation
     rounds a float to 2 decimal places for cleaner looking result
     """
-    return f'The result is {round(result, 2)}' if isinstance(result, (int, float)) else result
+    if isinstance(the_result, (int, float)):
+        return f'The result is {round(the_result, 2)}'
+    return the_result
 
-def return_answer(operation, number1, number2):
+def return_answer(this_operation, num1, num2):
     """
-    def return_answer to take the user input and return the answer of the input
-    catches an error and prints message if user tries illegal operation divide by 0
+    Take the user input and return the answer of the input
+    Returns error message if attempt divide by 0
     """
-    match operation:
+    match this_operation:
         case '1':
-            return number1 + number2
+            return num1 + num2
         case '2':
-            return number1 - number2
+            return num1 - num2
         case '3':
-            return number1 * number2
+            return num1 * num2
         case '4':
             try:
-                return number1 / number2
+                return num1 / num2
             except ZeroDivisionError:
                 return 'Cannot divide by zero!'
         case _:
@@ -44,11 +46,10 @@ def ask_for_operation(prompt):
     """
     valid_operations = {'1', '2', '3', '4'}
     while True:
-        operation = input(prompt)
-        if operation in valid_operations:
-            return operation
-        else:
-            print("Invalid operation: Please select 1, 2, 3, or 4")
+        this_operation = input(prompt)
+        if this_operation in valid_operations:
+            return this_operation
+        print("Invalid operation: Please select 1, 2, 3, or 4")
 
 
 #main program body
@@ -60,7 +61,9 @@ number2 = check_for_number("What's the second number? ")
 
 print(f'{number1}, {number2}')
 
-operation = ask_for_operation("What operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide\n")
+OPERATION_PROMPT1 = "What operation would you like to perform?\n"
+OPERATION_PROMPT2 = "1) Add 2) Subtract 3) Multiply 4) Divide\n"
+operation = ask_for_operation(OPERATION_PROMPT1 + OPERATION_PROMPT2)
 result = return_answer(operation, number1, number2)
 
 print(print_result(result))
