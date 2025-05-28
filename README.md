@@ -14,6 +14,10 @@ Directories:
         calculator_messages_loader.py
             file to help extract a readable python dict from JSON file
             return a dict of the different languages to import into calc
+    loan_calculator:
+        loan_calculator.py 
+            file containing the code for the loan calculator that determines monthly payment from 
+            compounding monthly interest
     lesson_2:
         directory containing all the practice problems, code and projects for lesson 2
         small_exercises:
