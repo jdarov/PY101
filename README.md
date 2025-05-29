@@ -25,4 +25,6 @@ Directories:
         calculator:
             calculator directory containing the calculator.py app
             This app runs Calculator practice app with bonus features
+        practice_json:
+            directory containing code for more practice with dictionaries and JSON files
 ```
