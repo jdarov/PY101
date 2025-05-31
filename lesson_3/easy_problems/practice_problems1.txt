@@ -1,0 +1,4 @@
+1. numbers = [1, 2, 3]
+numbers[6] = 5
+#Index out of range, no index 6, len = 3 (0, 1, 2)
+
